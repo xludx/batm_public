@@ -305,5 +305,21 @@
         </exchange>
         <cryptologo cryptocurrency="DEX" file="dex.png"/>
     </extension>
+    <extension class="com.generalbytes.batm.server.extensions.extra.particl.ParticlExtension" >
+        <wallet prefix="particld" name="Particld">
+            <param name="protocol" />
+            <param name="user" />
+            <param name="password" />
+            <param name="host" />
+            <param name="port" />
+            <param name="accountname" />
+            <cryptocurrency>PART</cryptocurrency>
+        </wallet>
+        <ratesource prefix="partfix" name ="Fix Price" >
+            <param name="price" />
+            <cryptocurrency>PART</cryptocurrency>
+        </ratesource>
+        <cryptologo cryptocurrency="PART" file="part.png"/>
+    </extension>
     <extension class="com.generalbytes.batm.server.extensions.extra.watchlists.BasicWatchlistsExtension" />
 </extensions>
