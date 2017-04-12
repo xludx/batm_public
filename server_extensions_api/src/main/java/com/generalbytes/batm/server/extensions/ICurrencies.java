@@ -36,6 +36,7 @@ public interface ICurrencies {
     public static final String TKN = "TKN";
     public static final String WDC = "WDC";
     public static final String XMR = "XMR";
+    public static final String PART = "PART";
 
     public static final String CAD = "CAD";
     public static final String CHF = "CHF";
